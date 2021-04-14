@@ -9,7 +9,7 @@ Please then read the word document which has the instructions for the test.
 ***
 
 #### To Submit the test.
-Submit to us links to your new repo which is preferably public.
+Submit a link to your new repo which is preferably public.
 
 If the repo is private then you will be given instructions on who to invite to be able to clone the repo.
 
