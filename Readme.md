@@ -16,7 +16,9 @@ If the repo is private then you will be given instructions on who to invite to b
 Do the test and please commit frequently as we want to see your thought processes in solving the test.
 
 This should take about an hour. 
-If there are things you think should be done but you dont have time then make comments. They are as valid as code.
+If there are things you think should be done but you dont have time then make comments in your code. 
+
+Good comments are as valid as code.
 
 ***
 ## Good Luck
