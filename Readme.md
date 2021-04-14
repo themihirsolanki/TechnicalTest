@@ -5,7 +5,7 @@
 ***
 Create a repo from this template repo.
 
-Please then read the word document which has the instructions for the test.
+Then read the word document which has the instructions for the test.
 ***
 
 #### To Submit the test.
