@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Text;
 using Ulaw.ApplicationProcessor;
 using ULaw.ApplicationProcessor.Enums;  
 
 namespace ULaw.ApplicationProcessor
 {
+    // Application Object should ideally implement an Interface
     public class Application
     {
+        // This should ideally come from DI/ICO
         public IMessageBuilder MessageBuilder { get; set; }
 
         public Application(string faculty, string CourseCode, DateTime Startdate, string Title, string FirstName, string LastName, DateTime DateOfBirth, bool requiresVisa)

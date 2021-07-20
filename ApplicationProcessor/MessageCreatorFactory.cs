@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ULaw.ApplicationProcessor;
+﻿using ULaw.ApplicationProcessor;
 using ULaw.ApplicationProcessor.Enums;
 
 namespace Ulaw.ApplicationProcessor
 {
     public class MessageCreatorFactory : IMessageCreatorFactory
     {
+        // There are different ways of implementing this rather than hard coding like this
         public IMessageCreator Create(Application application)
         {
             if (application.DegreeGrade == DegreeGradeEnum.twoTwo)

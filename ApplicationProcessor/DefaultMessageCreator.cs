@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 using ULaw.ApplicationProcessor;
 
 namespace Ulaw.ApplicationProcessor
@@ -18,8 +16,9 @@ namespace Ulaw.ApplicationProcessor
         {
             StringBuilder result = new StringBuilder();
 
-            result.Append(string.Format("<p> Dear {0}, </p>", _application.FirstName));
-            result.Append(string.Format("<p/> Further to your recent application for our course reference: {0} starting on {1}, we are writing to inform you that we are currently assessing your information and will be in touch shortly.", _application.CourseCode, _application.StartDate.ToLongDateString()));
+            result.Append($"<p> Dear {_application.FirstName}, </p>");
+            result.Append(
+                $"<p/> Further to your recent application for our course reference: {_application.CourseCode} starting on {_application.StartDate.ToLongDateString()}, we are writing to inform you that we are currently assessing your information and will be in touch shortly.");
             result.Append("<br/> If you wish to discuss any aspect of your application, please contact us at AdmissionsTeam@Ulaw.co.uk.");
             result.Append("<br/> Yours sincerely,");
             result.Append("<p/> The Admissions Team,");

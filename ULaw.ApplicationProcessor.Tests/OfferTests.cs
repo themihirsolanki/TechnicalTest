@@ -32,7 +32,7 @@ namespace ULaw.ApplicationProcessor.Tests
         public void ApplicationSubmissionWithFirstLawDegree()
         {
             Application thisSubmission = new Application("Law", "ABC123", new DateTime(2019, 9, 22), "Mr", "Test", "Tester", new DateTime(1991, 08, 14), false);
-            thisSubmission.MessageBuilder = _messageBuilder; 
+            thisSubmission.MessageBuilder = _messageBuilder; // ideally if we use IOC/DI then we dont have to set property like this
             
             thisSubmission.DegreeGrade = DegreeGradeEnum.first;
             thisSubmission.DegreeSubject = DegreeSubjectEnum.law;
